@@ -10,6 +10,8 @@
     <meta name="HandheldFriendly" content="True" />
     
     <meta name="robots" content="noindex,nofollow" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title></title>
     <script src="https://telegram.org/js/telegram-web-app.js?1"></script>
     <script>
@@ -20,30 +22,15 @@
         setThemeClass();
 
     </script>
-<style>
-    .mainContainer: {
-        display: flex;
-        justify: content;
-        align-items: center;
-    }
-    .container{
-        display: flex;
-        flex-dirextion: column;
-        gap: 5px;
-    }
-    </style>
+
 </head>
 
-
-
-
 <body>
-
-    <section className="mainContainer">
-        <div className="container">
-        <input type="text">
-        <button type="submit">Send Link</button>
+    <section >
+        <div class="mb-3">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
+        <button class="btn btn-primary" type="submit">Send Link</button>
     </section>
 </body>
 </html>
